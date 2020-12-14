@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185F6AD125878264006202F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F6AD025878264006202F2 /* AppDelegate.swift */; };
+		185F6AD325878264006202F2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 185F6AD225878264006202F2 /* art.scnassets */; };
+		185F6AD525878264006202F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F6AD425878264006202F2 /* ViewController.swift */; };
+		185F6AD825878264006202F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185F6AD625878264006202F2 /* Main.storyboard */; };
+		185F6ADA25878265006202F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185F6AD925878265006202F2 /* Assets.xcassets */; };
+		185F6ADD25878265006202F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185F6ADB25878265006202F2 /* LaunchScreen.storyboard */; };
+		185F6AE825878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F6AE725878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitTests.swift */; };
+		185F6AF325878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185F6AF225878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185F6AE425878265006202F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185F6AC525878264006202F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185F6ACC25878264006202F2;
+			remoteInfo = "GAM740-BlackAndWhiteFilterForARKit";
+		};
+		185F6AEF25878265006202F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185F6AC525878264006202F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185F6ACC25878264006202F2;
+			remoteInfo = "GAM740-BlackAndWhiteFilterForARKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185F6ACD25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAM740-BlackAndWhiteFilterForARKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185F6AD025878264006202F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185F6AD225878264006202F2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		185F6AD425878264006202F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185F6AD725878264006202F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185F6AD925878265006202F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185F6ADC25878265006202F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185F6ADE25878265006202F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185F6AE325878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GAM740-BlackAndWhiteFilterForARKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185F6AE725878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAM740_BlackAndWhiteFilterForARKitTests.swift; sourceTree = "<group>"; };
+		185F6AE925878265006202F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185F6AEE25878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GAM740-BlackAndWhiteFilterForARKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185F6AF225878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAM740_BlackAndWhiteFilterForARKitUITests.swift; sourceTree = "<group>"; };
+		185F6AF425878265006202F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185F6ACA25878264006202F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185F6AE025878265006202F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185F6AEB25878265006202F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185F6AC425878264006202F2 = {
+			isa = PBXGroup;
+			children = (
+				185F6ACF25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit */,
+				185F6AE625878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests */,
+				185F6AF125878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests */,
+				185F6ACE25878264006202F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185F6ACE25878264006202F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185F6ACD25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit.app */,
+				185F6AE325878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests.xctest */,
+				185F6AEE25878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185F6ACF25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit */ = {
+			isa = PBXGroup;
+			children = (
+				185F6AD025878264006202F2 /* AppDelegate.swift */,
+				185F6AD225878264006202F2 /* art.scnassets */,
+				185F6AD425878264006202F2 /* ViewController.swift */,
+				185F6AD625878264006202F2 /* Main.storyboard */,
+				185F6AD925878265006202F2 /* Assets.xcassets */,
+				185F6ADB25878265006202F2 /* LaunchScreen.storyboard */,
+				185F6ADE25878265006202F2 /* Info.plist */,
+			);
+			path = "GAM740-BlackAndWhiteFilterForARKit";
+			sourceTree = "<group>";
+		};
+		185F6AE625878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				185F6AE725878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitTests.swift */,
+				185F6AE925878265006202F2 /* Info.plist */,
+			);
+			path = "GAM740-BlackAndWhiteFilterForARKitTests";
+			sourceTree = "<group>";
+		};
+		185F6AF125878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185F6AF225878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitUITests.swift */,
+				185F6AF425878265006202F2 /* Info.plist */,
+			);
+			path = "GAM740-BlackAndWhiteFilterForARKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185F6ACC25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185F6AF725878265006202F2 /* Build configuration list for PBXNativeTarget "GAM740-BlackAndWhiteFilterForARKit" */;
+			buildPhases = (
+				185F6AC925878264006202F2 /* Sources */,
+				185F6ACA25878264006202F2 /* Frameworks */,
+				185F6ACB25878264006202F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GAM740-BlackAndWhiteFilterForARKit";
+			productName = "GAM740-BlackAndWhiteFilterForARKit";
+			productReference = 185F6ACD25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185F6AE225878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185F6AFA25878265006202F2 /* Build configuration list for PBXNativeTarget "GAM740-BlackAndWhiteFilterForARKitTests" */;
+			buildPhases = (
+				185F6ADF25878265006202F2 /* Sources */,
+				185F6AE025878265006202F2 /* Frameworks */,
+				185F6AE125878265006202F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185F6AE525878265006202F2 /* PBXTargetDependency */,
+			);
+			name = "GAM740-BlackAndWhiteFilterForARKitTests";
+			productName = "GAM740-BlackAndWhiteFilterForARKitTests";
+			productReference = 185F6AE325878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185F6AED25878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185F6AFD25878265006202F2 /* Build configuration list for PBXNativeTarget "GAM740-BlackAndWhiteFilterForARKitUITests" */;
+			buildPhases = (
+				185F6AEA25878265006202F2 /* Sources */,
+				185F6AEB25878265006202F2 /* Frameworks */,
+				185F6AEC25878265006202F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185F6AF025878265006202F2 /* PBXTargetDependency */,
+			);
+			name = "GAM740-BlackAndWhiteFilterForARKitUITests";
+			productName = "GAM740-BlackAndWhiteFilterForARKitUITests";
+			productReference = 185F6AEE25878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185F6AC525878264006202F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					185F6ACC25878264006202F2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					185F6AE225878265006202F2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 185F6ACC25878264006202F2;
+					};
+					185F6AED25878265006202F2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 185F6ACC25878264006202F2;
+					};
+				};
+			};
+			buildConfigurationList = 185F6AC825878264006202F2 /* Build configuration list for PBXProject "GAM740-BlackAndWhiteFilterForARKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185F6AC425878264006202F2;
+			productRefGroup = 185F6ACE25878264006202F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185F6ACC25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit */,
+				185F6AE225878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitTests */,
+				185F6AED25878265006202F2 /* GAM740-BlackAndWhiteFilterForARKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185F6ACB25878264006202F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185F6AD325878264006202F2 /* art.scnassets in Resources */,
+				185F6ADD25878265006202F2 /* LaunchScreen.storyboard in Resources */,
+				185F6ADA25878265006202F2 /* Assets.xcassets in Resources */,
+				185F6AD825878264006202F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185F6AE125878265006202F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185F6AEC25878265006202F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185F6AC925878264006202F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185F6AD525878264006202F2 /* ViewController.swift in Sources */,
+				185F6AD125878264006202F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185F6ADF25878265006202F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185F6AE825878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185F6AEA25878265006202F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185F6AF325878265006202F2 /* GAM740_BlackAndWhiteFilterForARKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185F6AE525878265006202F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185F6ACC25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit */;
+			targetProxy = 185F6AE425878265006202F2 /* PBXContainerItemProxy */;
+		};
+		185F6AF025878265006202F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185F6ACC25878264006202F2 /* GAM740-BlackAndWhiteFilterForARKit */;
+			targetProxy = 185F6AEF25878265006202F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185F6AD625878264006202F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185F6AD725878264006202F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185F6ADB25878265006202F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185F6ADC25878265006202F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185F6AF525878265006202F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185F6AF625878265006202F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185F6AF825878265006202F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFMS5Y826S;
+				INFOPLIST_FILE = "GAM740-BlackAndWhiteFilterForARKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelsaunders.GAM740-BlackAndWhiteFilterForARKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185F6AF925878265006202F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFMS5Y826S;
+				INFOPLIST_FILE = "GAM740-BlackAndWhiteFilterForARKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelsaunders.GAM740-BlackAndWhiteFilterForARKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		185F6AFB25878265006202F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFMS5Y826S;
+				INFOPLIST_FILE = "GAM740-BlackAndWhiteFilterForARKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelsaunders.GAM740-BlackAndWhiteFilterForARKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAM740-BlackAndWhiteFilterForARKit.app/GAM740-BlackAndWhiteFilterForARKit";
+			};
+			name = Debug;
+		};
+		185F6AFC25878265006202F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFMS5Y826S;
+				INFOPLIST_FILE = "GAM740-BlackAndWhiteFilterForARKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelsaunders.GAM740-BlackAndWhiteFilterForARKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GAM740-BlackAndWhiteFilterForARKit.app/GAM740-BlackAndWhiteFilterForARKit";
+			};
+			name = Release;
+		};
+		185F6AFE25878265006202F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFMS5Y826S;
+				INFOPLIST_FILE = "GAM740-BlackAndWhiteFilterForARKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelsaunders.GAM740-BlackAndWhiteFilterForARKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GAM740-BlackAndWhiteFilterForARKit";
+			};
+			name = Debug;
+		};
+		185F6AFF25878265006202F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CFMS5Y826S;
+				INFOPLIST_FILE = "GAM740-BlackAndWhiteFilterForARKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelsaunders.GAM740-BlackAndWhiteFilterForARKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GAM740-BlackAndWhiteFilterForARKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185F6AC825878264006202F2 /* Build configuration list for PBXProject "GAM740-BlackAndWhiteFilterForARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185F6AF525878265006202F2 /* Debug */,
+				185F6AF625878265006202F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185F6AF725878265006202F2 /* Build configuration list for PBXNativeTarget "GAM740-BlackAndWhiteFilterForARKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185F6AF825878265006202F2 /* Debug */,
+				185F6AF925878265006202F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185F6AFA25878265006202F2 /* Build configuration list for PBXNativeTarget "GAM740-BlackAndWhiteFilterForARKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185F6AFB25878265006202F2 /* Debug */,
+				185F6AFC25878265006202F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185F6AFD25878265006202F2 /* Build configuration list for PBXNativeTarget "GAM740-BlackAndWhiteFilterForARKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185F6AFE25878265006202F2 /* Debug */,
+				185F6AFF25878265006202F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185F6AC525878264006202F2 /* Project object */;
+}
